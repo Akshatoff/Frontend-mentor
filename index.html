@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbarmobile">
+    <img src="./images/logo.svg" alt="Logo" class="logo">
+    <h1 class="hamburger" id="ham">&equiv;</h1>
+  </div>
+  <div class="navmenu">
+    <ul class="list">
+      <li class="item" id="features">Features <img src="./images/icon-arrow-down.svg" alt="" class="dropdown"></li>
+      <li class="item" id="company">Company <img src="./images/icon-arrow-down.svg" alt="" class="dropdown"></li>
+      <li class="item">Careers </li>
+      <li class="item">About </li>
+      
+    </ul>
+    
+  </div>
+  <nav class="navbar">
+    <img src="./images/logo.svg" alt="Logo" class="logo">
+    <ul class="list">
+      <li class="item" id="features">Features <img src="./images/icon-arrow-down.svg" alt="" class="dropdown"></li>
+      <li class="item" id="company">Company <img src="./images/icon-arrow-down.svg" alt="" class="dropdown"></li>
+      <li class="item">Careers </li>
+      <li class="item">About </li>
+      
+    </ul>
+    
+      
+    
+  </nav>
+  
+  <div class="btn-container">
+  <button class="btn-login">
+    Login
+  </button>
+  <button class="btn-reg">
+    Register
+  </button>
+</div>
+<div class="dropdownlist" id="featuredrop">
+  <ul class="droplist">
+    <li class="listitem"><img src="./images/icon-todo.svg" alt="" class="listlogo">Todo List</li>
+    <li class="listitem"><img src="./images/icon-calendar.svg" alt="" class="listlogo">Calendar</li>
+    <li class="listitem"><img src="./images/icon-reminders.svg" alt="" class="listlogo">Reminders</li>
+    <li class="listitem"><img src="./images/icon-planning.svg" alt="" class="listlogo">Planning</li>
+  </ul>
+</div>
+<div class="dropdownlist" id="companydrop">
+  <ul class="droplist">
+    <li class="listitem">History</li>
+    <li class="listitem">Our Team</li>
+    <li class="listitem">Blog</li>
+  </ul>
+</div>
+
+    <img src="./images/image-hero-mobile.png" alt="" class="imgmobile">
+    <h1 class="text" id="heading">Make remote work</h1>
+    <p class="text" id="description">Get your team in sync no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      
+    <button class="btn">
+      Learn more
+    </button>
+    <img src="./images/image-hero-desktop.png" alt="" class="image">
+
+    <div class="icon-container">
+      <img src="./images/client-databiz.svg" alt="" class="icons">
+      <img src="./images/client-audiophile.svg" alt="" class="icons" id="audiophile">
+      <img src="./images/client-meet.svg" alt="" class="icons">
+      <img src="./images/client-maker.svg" alt="" class="icons">
+    </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Akshat</a>.
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
